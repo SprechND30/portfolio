@@ -20,7 +20,7 @@ class Carousel extends React.Component {
           subTitle: 'Senior Project',
           imgSrc: giveTree,
           link: 'https://givingtree-cfs.firebaseapp.com/',
-          description: "Giving Tree was my senior group project. Over the course of my year-long senior project, my team and I designed, developed, and tested a web platform through which charitable nonprot foundations can market giving opportunities and collect donations from demographics that they otherwise find hard to reach. Check out the project with sample data below!",
+          description: "Giving Tree was my senior group project. Over the course of my year-long senior project, my team and I designed, developed, and tested a web platform through which charitable nonprot foundations can market giving opportunities and collect donations from demographics that they otherwise find hard to reach. Check out the project with sample data below!",
           selected: false
         },
         {
@@ -72,16 +72,16 @@ class Carousel extends React.Component {
 
   makeItems = (items) => {
     return items.map(item => {
-      return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+      return <Row><Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} /></Row>
     })
   }
 
   render() {
     return(
       <Container>
-        <Row className="justify-content-around">
+
           {this.makeItems(this.state.items)}
-        </Row>
+
       </Container>
     );
   }
