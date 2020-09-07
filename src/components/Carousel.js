@@ -3,7 +3,7 @@ import React from 'react';
 import Card from '../components/Card';
 
 import giveTree from '../assets/images/giveTree.png'
-import proj2 from '../assets/images/proj2.png'
+import wsaj from '../assets/images/wsaj.png'
 import ant from '../assets/images/ant.png'
 import graph from '../assets/images/graph.png'
 import { Container, Row } from 'react-bootstrap';
@@ -28,7 +28,7 @@ class Carousel extends React.Component {
           id: 1,
           title: 'WSAJ Website',
           subTitle: 'Web Programming Group Project',
-          imgSrc: proj2,
+          imgSrc: wsaj,
           link: 'https://wsaj-7626d.firebaseapp.com/',
           linkText: "View Project Demo",
           description: "In this project, my team and I created a website with ReactJS for my Alma Mater's student-run radio station, WSAJ. The site includes a home page with news updates, a list of the DJ shows and their upcoming sets, a calendar (which is interactive from the producers' prospectives and a contact page. You can see the site below, populated with sample data.",
