@@ -3,7 +3,7 @@ import './App.css';
 
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import { Container, NavbarBrand } from 'react-bootstrap';
-import NavBar from 'react-bootstrap/NavBar';
+import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 
 import Footer from './components/Footer';
@@ -37,17 +37,17 @@ class App extends React.Component {
       <Router>
         <Container className="p=0" fluid={true}>
 
-          <NavBar className="border-bottom" bg="transparent" expand="lg">
-            <NavBar.Brand>Portfolio</NavBar.Brand>
+          <Navbar className="border-bottom" bg="transparent" expand="lg">
+            <Navbar.Brand>Portfolio</Navbar.Brand>
 
-            <NavBar.Toggle className="border-0" aria-controls="navbar-toggle"/>
-            <NavBar.Collapse id="navbar-toggle">
+            <Navbar.Toggle className="border-0" aria-controls="Navbar-toggle"/>
+            <Navbar.Collapse id="Navbar-toggle">
               <Nav className="ml-auto">
                 <Link className="nav-link" to="/">Home</Link>
                 <Link className="nav-link" to="/about">About</Link>
               </Nav>
-            </NavBar.Collapse>
-          </NavBar>
+            </Navbar.Collapse>
+          </Navbar>
 
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
