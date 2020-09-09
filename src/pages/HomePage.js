@@ -12,7 +12,8 @@ function HomePage(props) {
       <Hero title={props.title} subTitle={props.subTitle} text={props.text} />
       <Container>
         <Row>
-          <Col>
+          <Col className="border-right">
+            <h3 className="display-5 font-weight-light">{props.subTitle}</h3>
             <Carousel />
           </Col>
           <Col xs={3}>

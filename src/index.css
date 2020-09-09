@@ -13,7 +13,7 @@ code {
 }
 
 .s-card {
-  margin: 20px;
+  margin: 2px;
 }
 
 .s-card-image {
@@ -43,4 +43,20 @@ code {
 
 .s-contact-column {
   width: 100px;
+}
+
+.s-card-normal {
+  background-color: white;
+  padding: 10px;
+}
+
+.s-card-highlight {
+  background-color: #f2f4fa;
+  box-shadow: 1px 1px 3px 0px #ccc;
+  padding: 10px;
+}
+
+.jumbo {
+  background-color: #f2f4fa;
+  box-shadow: 1px 1px 3px 0px rgb(224, 224, 224);
 }

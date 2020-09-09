@@ -21,7 +21,7 @@ class Carousel extends React.Component {
           imgSrc: giveTree,
           link: 'https://givingtree-cfs.firebaseapp.com/',
           linkText: "View Project Demo",
-          description: "Over the course of my year-long senior project, my team and I designed, developed, and tested a web platform through which charitable nonprofit foundations can market giving opportunities and collect donations from demographics that they otherwise find hard to reach. During the design phase, my work included meeting with the client to collect technical specifications, wireframe design, mock-up testing with target users, and UI design. During development, I implemented the tagging system, tag and keyword search, and worked with a teammate to integrate the larger search bar. In addition, I worked on the nonprofit side of the website, and set up component testing, running numerous unit-tests with Enzyme and Jest. Check out the project with sample data below!",
+          description: "Over the course of my year-long senior project, my team and I designed, developed, and tested a web platform through which charitable nonprofit foundations can market giving opportunities and collect donations from demographics that they otherwise find hard to reach. During the design phase, my work included meeting with the client to collect technical specifications, wireframe design, mock-up testing with target users, and UI design. During development, I implemented the tagging system, tag and keyword search, and worked with a teammate to integrate the larger search bar. In addition, I worked on the nonprofit side of the website, and set up component testing, running numerous unit-tests with Enzyme and Jest. Check out the project with sample data above!",
           selected: false
         },
         {
@@ -31,7 +31,7 @@ class Carousel extends React.Component {
           imgSrc: wsaj,
           link: 'https://wsaj-7626d.firebaseapp.com/',
           linkText: "View Project Demo",
-          description: "In this project, my team and I created a website with ReactJS for my Alma Mater's student-run radio station, WSAJ. The site includes a home page with news updates, a list of the DJ shows and their upcoming sets, a calendar (which is interactive from the producers' prospectives and a contact page. You can see the site below, populated with sample data.",
+          description: "In this project, my team and I created a website with ReactJS for my Alma Mater's student-run radio station, WSAJ. The site includes a home page with news updates, a list of the DJ shows and their upcoming sets, a calendar (which is interactive from the producers' prospectives and a contact page. You can see the site above, populated with sample data.",
           selected: false
         },
         {
@@ -41,7 +41,7 @@ class Carousel extends React.Component {
           imgSrc: ant,
           link: 'https://github.com/SprechND30/ant_tracking',
           linkText: "View Project GitHub",
-          description: "The purpose of this project was to evaluate various computer vision algorithms for the purpose of tracking ants. Over the course of the project, I tested several algorithms, and presented our results at the Sigma Xi Undergraduate Research Conference in the spring of 2019. The Github linked below contains my work from last year: data preprocessing code and instructions for how to run CFNets, a deep learning algorithm.",
+          description: "The purpose of this project was to evaluate various computer vision algorithms for the purpose of tracking ants. Over the course of the project, I tested several algorithms, and presented our results at the Sigma Xi Undergraduate Research Conference in the spring of 2019. The Github linked above contains my work from last year: data preprocessing code and instructions for how to run CFNets, a deep learning algorithm.",
           selected: false
         },
         {
