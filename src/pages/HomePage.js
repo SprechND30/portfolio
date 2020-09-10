@@ -13,7 +13,7 @@ function HomePage(props) {
       <Container>
         <Row>
           <Col className="border-right">
-            <h3 className="display-5 font-weight-light">{props.subTitle}</h3>
+            <h2 className="display-4 font-weight-light">{props.subTitle}</h2>
             <Carousel />
           </Col>
           <Col xs={3}>

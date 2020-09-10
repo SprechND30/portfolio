@@ -7,7 +7,7 @@ function Contact(props) {
 
   return(
     <div>
-      <h2 className="font-weight-light">Contact</h2>
+      <h2 className="display-4 font-weight-light">Contact</h2>
       <Container>
         <Row className="justify-content-start" xs={4} md={6} lg={8}>
           <Col>
