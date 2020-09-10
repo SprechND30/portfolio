@@ -58,6 +58,16 @@ code {
 }
 
 .jumbo {
-  background-color: #f2f4fa;
+  background-image: url("assets/images/computerBackground.png");
+  background-size: cover;
+  background-position: center;
+  color: #f2f4fa;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
   box-shadow: 1px 1px 3px 0px rgb(224, 224, 224);
+}
+
+.whole-page {
+  margin-left: -15px;
+  margin-right: -15px;
 }

@@ -36,24 +36,24 @@ class App extends React.Component {
     return (
       <Router>
         <Container className="p=0" fluid={true}>
+          <div className="whole-page">
+            <Navbar className="border-bottom" bg="transparent" expand="lg">
+              <Navbar.Brand>Portfolio</Navbar.Brand>
 
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Portfolio</Navbar.Brand>
+              <Navbar.Toggle className="border-0" aria-controls="Navbar-toggle"/>
+              <Navbar.Collapse id="Navbar-toggle">
+                <Nav className="ml-auto">
+                  <Link className="nav-link" to="/">Home</Link>
+                  <Link className="nav-link" to="/about">About</Link>
+                </Nav>
+              </Navbar.Collapse>
+            </Navbar>
 
-            <Navbar.Toggle className="border-0" aria-controls="Navbar-toggle"/>
-            <Navbar.Collapse id="Navbar-toggle">
-              <Nav className="ml-auto">
-                <Link className="nav-link" to="/">Home</Link>
-                <Link className="nav-link" to="/about">About</Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
+            <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
+            <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
 
-          <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} text={this.state.home.text} />} />
-          <Route path="/about" render={() => <AboutPage title={this.state.about.title} />} />
-
-          <Footer />
-
+            <Footer />
+          </div>
         </Container>
       </Router>
     );

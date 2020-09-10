@@ -8,7 +8,6 @@ import '../App.css';
 function Hero(props) {
 
   return(
-    <div className="jumbo">
     <Jumbotron className="jumbotron-fluid p-0" >
       <Container className="jumbo" fluid={true}>
         <Row className="justify-content-center py-5">
@@ -19,7 +18,6 @@ function Hero(props) {
         </Row>
       </Container>
     </Jumbotron>
-    </div>
   );
 }
 
