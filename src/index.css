@@ -14,6 +14,7 @@ code {
 
 .s-card {
   margin: 2px;
+  cursor: pointer;
 }
 
 .s-card-image {

@@ -26,12 +26,12 @@ class Carousel extends React.Component {
         },
         {
           id: 1,
-          title: 'WSAJ Website',
-          subTitle: 'Web Programming Group Project',
-          imgSrc: wsaj,
-          link: 'https://wsaj-7626d.firebaseapp.com/',
-          linkText: "View Project Demo",
-          description: "In this project, my team and I created a website with ReactJS for my Alma Mater's student-run radio station, WSAJ. The site includes a home page with news updates, a list of the DJ shows and their upcoming sets, a calendar (which is interactive from the producers' prospectives and a contact page. You can see the site above, populated with sample data.",
+          title: 'Detecting Erroneous Node Attributes with GNNs',
+          subTitle: 'Smart Environments REU at WSU',
+          imgSrc: graph,
+          link: 'https://github.com/SprechND30/GraphSAGE_Benchmark',
+          linkText: "View Project GitHub",
+          description: "Over the summer of 2019, I had the opportunity to participate in WSU's Smart Environments REU. My project focused on providing a baseline for a graduate student who was investigating the use of Graph Neural Nets (GNNs) for detecting erroneous node attributes in directed graphs. My job was to provide a baseline, by implementing and testing GraphSAGE, a modern deep learning algorithm, to node2vec, a simpler alternative. The link will take you to the Github repo for the project, containing the algorithms, preprocessing code, instructions, and some results.",
           selected: false
         },
         {
@@ -46,12 +46,12 @@ class Carousel extends React.Component {
         },
         {
           id: 3,
-          title: 'Detecting Erroneous Node Attributes with GNNs',
-          subTitle: 'Smart Environments REU at WSU',
-          imgSrc: graph,
-          link: 'https://github.com/SprechND30/GraphSAGE_Benchmark',
-          linkText: "View Project GitHub",
-          description: "Over the summer of 2019, I had the opportunity to participate in WSU's Smart Environments REU. My project focused on providing a baseline for a graduate student who was investigating the use of Graph Neural Nets (GNNs) for detecting erroneous node attributes in directed graphs. My job was to provide a baseline, by implementing and testing GraphSAGE, a modern deep learning algorithm, to node2vec, a simpler alternative. The link will take you to the Github repo for the project, containing the algorithms, preprocessing code, instructions, and some results.",
+          title: 'WSAJ Website',
+          subTitle: 'Web Programming Group Project',
+          imgSrc: wsaj,
+          link: 'https://wsaj-7626d.firebaseapp.com/',
+          linkText: "View Project Demo",
+          description: "In this project, my team and I created a website with ReactJS for my Alma Mater's student-run radio station, WSAJ. The site includes a home page with news updates, a list of the DJ shows and their upcoming sets, a calendar (which is interactive from the producers' prospectives and a contact page. You can see the site above, populated with sample data.",
           selected: false
         }
       ]
