@@ -11,17 +11,14 @@ function AboutPage(props) {
 
       <Content>
         <p>
-          Hi! I am a recent graduate with a degree in Computer Science from Grove City College, with minors in Mathematics and in Data Science. I always love tackling hard problems, but more than that, I love learning new ways of approaching them. 
+        Hi! I am a recent graduate with a degree in Computer Science from Grove City College, with minors in Mathematics and Data Science. I work well both collaboratively and independently, on projects that span from open-ended to well-defined. I always love tackling hard problems, but more than that, I love learning new ways of approaching them.  
         </p>
         <p>
-          I work very well with other driven individuals. During my undergraduate studies, I had the chance to work on a cross-disciplinary team of undergraduate researchers on a project applying computer vision to the problem of tracking ant movement patterns. This project allowed me to creatively approach open-ended problems with lots of diverse perspectives. 
-        </p>
+          Last year, my senior project gave me the chance to participate in a software development lifecycle with well-defined start and end-points, all while working alongside other highly-motivated individuals. However, I am also comfortable with ambiguous tasks. During my undergraduate studies, I was part of a cross-disciplinary team on a computer vision independent research project. The experience allowed me to approach open-ended problems creatively from diverse perspectives, both collaboratively and independently. Finally, in the summer of 2019, I gained valuable experience working independently as an undergraduate researcher in Washington State's Smart Environments REU. The ambiguous nature of the problems required me to approach them creatively and with self-motivation. 
+        </p>  
         <p>
-          On the other hand, I also work well in structured environments. During my senior year, I experienced the software development lifecycle by designing, building, and testing a web application that allows nonprofits to collect donations from demographics they otherwise struggle to reach. I greatly enjoyed the chance to gain software engineering skills that will aid me throughout my career.
+          I love pushing my limits, whether operating by myself or with a driven team. I am capable of working on structured, self-contained tasks, or on open-ended endeavors that require out-of-the-box thinking.
         </p> 
-        <p>
-          Regardless of the work in front of me, I always approach it with a desire to learn more about computer science in general and the topic at hand in particular. I love learning to solve new problems, whether independently or in collaboration. 
-        </p>
       </Content>
     </div>
   );
